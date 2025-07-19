@@ -1,0 +1,154 @@
+body, html {
+    background-color: whitesmoke;
+    cursor: url("images/green_dot_cursor.png"), auto;
+}
+
+.bg {
+    opacity: 10%;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    animation-name: pulsing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    mix-blend-mode: color-burn;
+}
+
+@keyframes pulsing {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#treespin {
+    z-index: -1;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    mix-blend-mode: luminosity;
+}
+
+#treespin:hover {
+    mix-blend-mode: darken;
+}
+
+.thehike {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.thehike:hover {
+    cursor:url(images/image28cursor.png), auto;
+}
+
+.thelake {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.thelake:hover {
+    cursor:url(images/IMG_4588cursor.png), auto;
+}
+
+#walk {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#illustration {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.howtogetbored {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.howtogetbored:hover {
+    cursor:url(images/image77cursor.png), auto;
+}
+
+div.imagecrop {
+    width: 200px;
+    overflow: hidden;
+    transition: width 999.999s;
+    }
+
+div.imagecrop:hover {
+    width: 600px;
+    transition: width 2s;
+}
+
+
+.title {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, 250%);
+    position: absolute;
+    text-align: center;
+    font-family: "Edwardian Script ITC";
+    color: chartreuse;
+    mix-blend-mode: color-dodge;
+    font-size: 90px;
+    z-index: 1;
+    animation-name: appear;
+    animation-duration: 8s;
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+p {
+    margin 0;
+    color: limegreen;
+    font-family: "KisMiklos";
+    font-size: 20px;
+}
+
+p:hover {
+    text-shadow: 0px 0px 3px greenyellow;
+}
+
